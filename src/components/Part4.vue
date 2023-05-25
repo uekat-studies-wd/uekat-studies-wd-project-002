@@ -34,8 +34,7 @@ export default {
 
         graph.addEdge("John", "Mary");
 
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        const renderer = new Sigma(graph, container);
+        new Sigma(graph, container);
     },
 };
 </script>
